@@ -8,23 +8,17 @@ client.on('ready', () => {
     client.guilds.forEach((guild) => {
         console.log(" - " + guild.name)
     })
-    client.user.setActivity("Loving Dean Winchester")
-    // client.guilds.forEach((guild) => {
-    //     console.log(guild.name)
-    //     guild.channels.forEach((channel) => {
-    //         console.log(` - ${channel.name} ${channel.type} ${channel.id}`)
-    //     })
-    // })
+    client.user.setActivity("Sitting on the beach")
+    
 })
 client.on('message', (receivedMessage) => {
     if (receivedMessage.author == client.user) {
         return
     }
-    //receivedMessage.channel.send("hello, " + receivedMessage.author.toString() + "!")
     if (receivedMessage.content.startsWith("!")) {
         processCommand(receivedMessage)
     }
-    else if (receivedMessage.content.toLowerCase().startsWith('cas are') || receivedMessage.content.toLowerCase().startsWith('cas will') || receivedMessage.content.toLowerCase().startsWith('cas is') || receivedMessage.content.toLowerCase().startsWith('cas would') || receivedMessage.content.toLowerCase().startsWith('cas do') || receivedMessage.content.toLowerCase().startsWith('cas does') || receivedMessage.content.toLowerCase().startsWith('cas did') || receivedMessage.content.toLowerCase().startsWith('cas am') || receivedMessage.content.toLowerCase().startsWith('cas can') || receivedMessage.content.toLowerCase().startsWith('cas could') || receivedMessage.content.toLowerCase().startsWith('cas should') || receivedMessage.content.toLowerCase().startsWith('cas have') || receivedMessage.content.toLowerCase().startsWith('cas has')) {
+    else if (receivedMessage.content.toLowerCase().startsWith('dean are') || receivedMessage.content.toLowerCase().startsWith('dean will') || receivedMessage.content.toLowerCase().startsWith('dean is') || receivedMessage.content.toLowerCase().startsWith('dean would') || receivedMessage.content.toLowerCase().startsWith('dean do') || receivedMessage.content.toLowerCase().startsWith('dean does') || receivedMessage.content.toLowerCase().startsWith('dean did') || receivedMessage.content.toLowerCase().startsWith('dean am') || receivedMessage.content.toLowerCase().startsWith('dean can') || receivedMessage.content.toLowerCase().startsWith('dean could') || receivedMessage.content.toLowerCase().startsWith('dean should') || receivedMessage.content.toLowerCase().startsWith('dean have') || receivedMessage.content.toLowerCase().startsWith('dean has')) {
         var yn = Math.floor(Math.random() * 2)
         if (yn == "0") {
             receivedMessage.channel.send("Yes.")
@@ -33,57 +27,42 @@ client.on('message', (receivedMessage) => {
             receivedMessage.channel.send("No.")
         }
     }
-    else if (receivedMessage.content.toLowerCase().includes('cas fuck you') || receivedMessage.content.toLowerCase().includes('fuck you cas')) {
-        casattachment = new Discord.Attachment('https://i.imgur.com/KvuAzqw.jpg')
-        receivedMessage.channel.send(casattachment)
+    else if (receivedMessage.content.toLowerCase().includes('dean fuck you') || receivedMessage.content.toLowerCase().includes('fuck you dean')) {
+        var fuckyou = Math.floor(Math.random() * 4)
+        if (fuckyou == "0") {
+        receivedMessage.channel.send("Promise?")
+        }
+        if (fuckyou == "1") {
+            receivedMessage.channel.send("Get in line, pal.")
+        }
+        if (fuckyou == "2") {
+            receivedMessage.channel.send("Cas has that taken care of, but thanks for the offer.")
+        }
+        if (fuckyou == "3") {
+            const attachment = new Discord.Attachment("https://i.imgur.com/F0RgJBw.jpg")
+            receivedMessage.channel.send(attachment)
     }
-    else if (receivedMessage.content.toLowerCase().includes('cas') && receivedMessage.content.toLowerCase().includes('on a scale of 1 to 10')) {
+    else if (receivedMessage.content.toLowerCase().includes('dean') && receivedMessage.content.toLowerCase().includes('on a scale of 1 to 10')) {
         var scalevar = Math.floor(Math.random() * 10) + 1
         receivedMessage.channel.send(scalevar)
     }
-    // else if (receivedMessage.content.toLowerCase().includes(':)')) {
-    //     receivedMessage.channel.send(":)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':(')) {
-    //     receivedMessage.channel.send(":(")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(';)')) {
-    //     receivedMessage.channel.send(";)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':>)')) {
-    //     receivedMessage.channel.send(":<)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':>(')) {
-    //     receivedMessage.channel.send(":<(")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':<)')) {
-    //     receivedMessage.channel.send(":>)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':<(')) {
-    //     receivedMessage.channel.send(":>(")
-    // }
-    else if (receivedMessage.content.toLowerCase().includes('dean')) {
-        var deanCheck = /\sdean\s/i
-        if (receivedMessage.content.toLowerCase().match(deanCheck)) {  receivedMessage.channel.send("DEAN!") }
+  
+    else if (receivedMessage.content.toLowerCase().includes('cas')) {
+        var casCheck = /\scas\s/i
+        if (receivedMessage.content.toLowerCase().match(casCheck)) {  receivedMessage.channel.send("That's my angel!") }
     }
-   // else if (receivedMessage.content.toLowerCase().includes('chuck ')) {
-      //  receivedMessage.channel.send("Fuck that guy!")
-    //}
-    else if (receivedMessage.content.toLowerCase().includes('john ')) {
-        receivedMessage.channel.send("Killingthatmannatural.")
-    }
-    else if (receivedMessage.content.toLowerCase().includes('sam ')) {
-        receivedMessage.channel.send("That's my bloodfreak-in-law!")
-    }
-
-    else if (receivedMessage.content.toLowerCase().includes('jack ')) {
-        receivedMessage.channel.send("Baby boy son boy.")
-    }
-   else if (receivedMessage.content.toLowerCase().includes('chuck')) {
-        var chuckCheck = /\schuck\s/i
-        if (receivedMessage.content.toLowerCase().match(chuckCheck)) { receivedMessage.channel.send("Fuck that guy!") }
-    }
-    else if (receivedMessage.content.toLowerCase().startsWith('cas say')) {
+    
+   else if (receivedMessage.content.toLowerCase().includes('sam')) {
+       var samCheck = \/ssam\s/i
+       if (receivedMessage.content.toLowerCase().match(samCheck)) { receivedMessage.channel.send("You wanna see Sam's baby pictures? They're super embarassing.)}
+       }
+                                                                                                 
+   else if (receivedMessage.content.toLowerCase().includes('claire')) {
+       var claireCheck = \/sclaire\s/i
+       if (receivedMessage.content.toLowerCase().match(claireCheck)) { receivedMessage.channel.send("Atta girl.")}
+       }
+                                                                   
+    else if (receivedMessage.content.toLowerCase().startsWith('dean say')) {
         let fullsaying = receivedMessage.content.substr(1)
         let splitsaying = fullsaying.split(" ")
         let argumentsaying = splitsaying.slice(2)
@@ -93,50 +72,50 @@ client.on('message', (receivedMessage) => {
         receivedMessage.channel.send(stringargument)
 
     }
-    else if (receivedMessage.content.toLowerCase().includes('cas how do you feel') || receivedMessage.content.toLowerCase().includes('cas what do you think')) {
+    else if (receivedMessage.content.toLowerCase().includes('dean how do you feel') || receivedMessage.content.toLowerCase().includes('dean what do you think')) {
         var feelings = Math.floor(Math.random() * 3)
         if (feelings == 0) {
-            receivedMessage.channel.send("Not sure about that one, bestie.")
+            receivedMessage.channel.send("Not great, but I'm generally an anxious person, so who knows.")
         }
         if (feelings == 1) {
-           receivedMessage.channel.send("As Avril Lavigne said, 'Hell yeah!'")
+           receivedMessage.channel.send("That's... actually not a bad idea. Wow. That's a first for you.")
         }
         if (feelings == 2) {
-            receivedMessage.channel.send("...wig, I guess?")
+            receivedMessage.channel.send("That seems like a you problem.")
        }
     }
-    else if (receivedMessage.content.includes('Castiel!')) {
-        receivedMessage.channel.send("That's me!")
+
     }
-    else if (receivedMessage.content.toLowerCase().includes('cas')) {
+    else if (receivedMessage.content.toLowerCase().includes('dean')) {
         var reply = Math.floor(Math.random() * 50)
-        if (reply != 0 && reply != 1 && reply != 2 && reply != 3 && reply!= 4) {
-               receivedMessage.channel.send("👼")
+        if (reply != 0 && reply != 1 && reply != 2 && reply != 3 && reply!= 4 && reply != 5) {
+               receivedMessage.channel.send("What, bitch?")
         }
         if (reply == 0) {
-            const attachment = new Discord.Attachment("https://i.imgur.com/0Js9tC3.jpg")
+            const attachment = new Discord.Attachment("https://i.imgur.com/eJFeD10.jpg")
             receivedMessage.channel.send(attachment)
         }
         if (reply == 1) {
-            const attachment = new Discord.Attachment("https://i.imgur.com/Me3VhgC.jpg")
+            const attachment = new Discord.Attachment("https://i.imgur.com/1hVyODj.jpg")
             receivedMessage.channel.send(attachment)
         }
         if (reply == 2) {
-            const attachment = new Discord.Attachment("https://i.imgur.com/y79VBsb.jpg")
+            const attachment = new Discord.Attachment("https://i.imgur.com/MVgSQeV.jpg")
             receivedMessage.channel.send(attachment)
         }
         if (reply == 3) {
-            const attachment = new Discord.Attachment("https://i.imgur.com/mtCWX1E.jpg")
+            const attachment = new Discord.Attachment("https://i.imgur.com/VOQgZY1.jpg")
             receivedMessage.channel.send(attachment)
         }
         if (reply == 4) {
-            const attachment = new Discord.Attachment("https://i.imgur.com/648t8Ms.jpg")
+            const attachment = new Discord.Attachment("https://i.imgur.com/bvXh4JM.jpg")
+            receivedMessage.channel.send(attachment)
+        }
+        if (reply == 5) {
+            const attachment = new Discord.Attachment("https://i.imgur.com/ukPh1Bw.jpg")
             receivedMessage.channel.send(attachment)
         }
 
-    } else if (receivedMessage.content.toLowerCase().includes(':screwdriver:')) {
-      receivedMessage.channel.send("Goodbye, stranger.")
-    }
     else {
         var emotiPattern = /[\s\n\r\t\0]:.*[)(/][$\s\n\r\t\0]/
         var startPattern = /^:.*[)(/][$\s\n\r\t\0]/
@@ -148,28 +127,6 @@ client.on('message', (receivedMessage) => {
             receivedMessage.channel.send(startEmoti)
         }
     }
-    // else if (receivedMessage.content.toLowerCase().includes(':)')) {
-    //     receivedMessage.channel.send(":)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':(')) {
-    //     receivedMessage.channel.send(":(")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(';)')) {
-    //     receivedMessage.channel.send(";)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':>)')) {
-    //     receivedMessage.channel.send(":<)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':>(')) {
-    //     receivedMessage.channel.send(":<(")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':<)')) {
-    //     receivedMessage.channel.send(":>)")
-    // }
-    // else if (receivedMessage.content.toLowerCase().includes(':<(')) {
-    //     receivedMessage.channel.send(":>(")
-    // }
-
 })
 
 function processCommand(receivedMessage) {
@@ -178,21 +135,10 @@ function processCommand(receivedMessage) {
     let primaryCommand = splitCommand[0].toLowerCase()
     let arguments = splitCommand.slice(1)
 
-    if (primaryCommand == "cas") {
+    if (primaryCommand == "dean") {
         helpCommand(arguments, receivedMessage)
     }
-    // if (primaryCommand == "castiel") {
-        // const expressionless = client.emojis.find(emoji => emoji.name === "expressionless");
-       // receivedMessage.channel.send(`${expressionless}`)
-    // }
-
-    if (primaryCommand == "cass") {
-        var cass = Math.floor(Math.random() * 2)
-        if (cass == 0) {
-        receivedMessage.channel.send("I am not interested in being polite or heterosexual") }
-        if (cass == 1) {
-            receivedMessage.channel.send("Who the hell is Cass?") }
-    }
+  
 }
 
 function helpCommand(arguments, receivedMessage) {
@@ -200,123 +146,89 @@ function helpCommand(arguments, receivedMessage) {
         client.destroy()
     }
     if (arguments.length == 0) {
-            receivedMessage.channel.send("Hello! Say `!cas help` for a list of commands.")
+            receivedMessage.channel.send("Hey there! Say `!dean help` for a list of commands.")
     }
     else {
       arguments = arguments[0]
     }
     if (arguments == "check") {
-        receivedMessage.channel.send("I am online!")
+        receivedMessage.channel.send("Morning, sunshine! Type `!dean help` for a list of commands.")
     }
     if (arguments == "hug") {
-        receivedMessage.channel.send("[hugs you back] :) I love you.")
+        const attachment = new Discord.Attachment("https://i.imgur.com/hUT3pYV.gif")
+        receivedMessage.channel.send(attachment)
     }
     if (arguments == "kiss") {
-        receivedMessage.channel.send("Mwah! Don't tell Dean ;)")
+        receivedMessage.channel.send("Woah! Hands off, I'm a married man!")
     }
     if (arguments == "hold") {
-        receivedMessage.channel.send("[is hold]")
+        receivedMessage.channel.send("No one's ever done this for me before...")
     }
     if (arguments == "help") {
-        receivedMessage.channel.send("Hi bestie! Here are my commands:\n!cas talk: get a random Cas quote from canon\n!cas speak: get me to say something funny\n!cas bde: measure your big dick energy\n!cas bhe: measure your big hole energy\n!cas valid: learn how valid you are, objectively\n!cas death: learn the exact date and time of your own death\n!cas hug: give me a hug\n!cas kiss: give me a kiss\n!cas hold: hold me\n!cas feel: learn how I'm feeling\nYou can also make me say anything you want by typing 'cas say,' get my opinions by asking 'cas what do you think,' and I respond to my own name (plus a few others)!")
+        receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
     }
-
-    if (arguments == "feel") {
-        var feel = Math.floor(Math.random() * 10)
-        if (feel == 0) {
-            receivedMessage.channel.send("I feel like murder is okay.")
-        }
-        if (feel == 1) {
-            receivedMessage.channel.send("I feel like the poorest of little meow meows :(")
-        }
-        if (feel == 2) {
-            receivedMessage.channel.send("I'm not o-fucking-kay!!!")
-        }
-        if (feel == 3) {
-            receivedMessage.channel.send("I'm inconsolably horny :/")
-        }
-        if (feel == 4) {
-            receivedMessage.channel.send("I'm feeling petite and fertile. Submissive and breedable, even.")
-        }
-        if (feel == 5) {
-            receivedMessage.channel.send("ERROR CODE 36404: FILENAME 'EMOTIONS' NOT FOUND.")
-        }
-        if (feel == 6) {
-            receivedMessage.channel.send("I'm just a man in love! I can't be held responsible for my actions!")
-        }
-        if (feel == 7) {
-            receivedMessage.channel.send("I think I'm gay.")
-        }
-        if (feel == 8) {
-            receivedMessage.channel.send("I don't know how I feel, I'm waiting for Dean to tell me.")
-        }
-        if (feel == 9) {
-            receivedMessage.channel.send("I feel confident, I feel sexy, I feel stupid!")
-        }
-    }
-
 
     if (arguments == "talk") {
         var talk1 = Math.floor(Math.random() * 20)
         if (talk1 == 0) {
-            receivedMessage.channel.send("I'm an angel, you ass. I don't have a soul.")
+            receivedMessage.channel.send("I think I’m adorable.")
         }
         if (talk1 == 1) {
-            receivedMessage.channel.send("The shape and heft of his--")
+            receivedMessage.channel.send("Lady, I'm Tolstoy.")
         }
         if (talk1 == 2) {
-            receivedMessage.channel.send("Don't ask stupid questions.")
+            receivedMessage.channel.send("I like to think it's because of my perky nipples.")
         }
         if (talk1 == 3) {
-            receivedMessage.channel.send("I'll interrogate the cat.")
+            receivedMessage.channel.send("My boobs.")
         }
         if (talk1 == 4) {
-            receivedMessage.channel.send("I rebelled for THIS? So you could surrender to them? I gave EVERYTHING to you, and this is what you give to me?")
+            receivedMessage.channel.send("I – Ohh. I don't know why I get so angry. I just know – I know that it's – i-it's just always been there. And when things go bad, it just – it comes out. And I can't -- I can't stop it. No matter how – [Sniffles] how bad I want to, I just can't stop it. And – And I – I forgive you. Of course I forgive you. I'm sorry it took me so long – [Sniffles] I'm sorry it took me till now to say it. Cas, I'm – I'm so sorry. Man, I hope you can hear me. I hope you can hear me. [Sniffling] Okay.")
         }
         if (talk1 == 5) {
-            receivedMessage.channel.send("Now I realize that there is no righteous path. It's just people trying to do their best  in a world where it's far too easy to do your worst.")
+            receivedMessage.channel.send("There's times I want to get slapped during sex by a girl wearing a Zorro mask.")
         }
         if (talk1 == 6) {
-            receivedMessage.channel.send("Dean and I do share a more profound bond.")
+            receivedMessage.channel.send("Oooo sexy rules.")
         }
         if (talk1 == 7) {
-            receivedMessage.channel.send("I'm the one who gripped you tight and raised you from perdition.")
+            receivedMessage.channel.send("Let me tell you something. There are two things I know for certain. One, Bert and Ernie are gay. Two, you are not gonna die a virgin.")
         }
         if (talk1 == 8) {
-            receivedMessage.channel.send("For the first time... I feel...")
+            receivedMessage.channel.send("I’m a painted whore.")
         }
         if (talk1 == 9) {
-            receivedMessage.channel.send("Hey, assbut!")
+            receivedMessage.channel.send("Don’t objectify me!")
         }
         if (talk1 == 10) {
-            receivedMessage.channel.send("I understand. The bird represents God and coyote is man, endlessly chasing the divine, yet never able to catch him. It's hilarious.")
+            receivedMessage.channel.send("Blow me, Cas.")
         }
         if (talk1 == 11) {
-            receivedMessage.channel.send("I am utterly indifferent to sexual orientation.")
+            receivedMessage.channel.send("I feel like this whole place is bad-touching me.")
         }
         if (talk1 == 12) {
-            receivedMessage.channel.send("You have a guinea pig? Where is it?")
+            receivedMessage.channel.send("Cas, get out of my ass!")
         }
         if (talk1 == 13) {
-            receivedMessage.channel.send("I love you. Goodbye, Dean.")
+            receivedMessage.channel.send("I don't have a plan, but what I do have is a GED and a give-em-Hell attitude and I'll figure it out!")
         }
         if (talk1 == 14) {
-            receivedMessage.channel.send("I'm your huckleberry.")
+            receivedMessage.channel.send("There’s things, there’s... people, feelings that I want to experience differently than I have before, or maybe even for the first time...")
         }
         if (talk1 == 15) {
-            receivedMessage.channel.send("I'm your new God. A better one. So you will bow down and profess your love unto me, your Lord. Or I shall destroy you.")
+            receivedMessage.channel.send("Rhonda Hurley. We were, uh, nineteen. She made us try on her panties. They were pink. And satiny. And you know what? We kind of liked it..")
         }
         if (talk1 == 16) {
-            receivedMessage.channel.send("It's funnier in Enochian.")
+            receivedMessage.channel.send("So, what, I'm Thelma and you're Louise and we're just going to hold hands and sail off this cliff together?")
         }
         if (talk1 == 17) {
-            receivedMessage.channel.send("At least I don't look like a lumberjack.")
+            receivedMessage.channel.send("He was my gay thing.")
         }
         if (talk1 == 18) {
-            receivedMessage.channel.send("You know what I like about him, is that he’s sarcastic but he’s thoughtful and appreciative, too.")
+            receivedMessage.channel.send("We're humans. And when humans want something, really, really bad... we lie.")
         }
         if (talk1 == 19) {
-            receivedMessage.channel.send("Sam, of course, is an abomination.")
+            receivedMessage.channel.send("I had to be more than just a brother. I had to be a father, and I had to be a mother. To keep him safe.")
         }
     }
 
@@ -325,19 +237,9 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send(speak)
     }
 
-    if (arguments ==  "random") {
-       randomsent()
-        receivedMessage.channel.send(sent)
-    }
     if (arguments == "bde") {
         var bde = Math.floor(Math.random() * 101)
         var usersend = receivedMessage.author.toString()
-//         if (usersend.includes("!")) {
-//             usersend = usersend.split("!")[1].split(">")[0]
-//         }
-//         else {
-//             usersend = usersend.split("@")[1].split(">")[0]
-//         }
         receivedMessage.channel.send("You, " + usersend + ", have exactly " + bde + "% big dick energy!")
 
     }
@@ -347,84 +249,6 @@ function helpCommand(arguments, receivedMessage) {
         var usersend = receivedMessage.author.toString()
         receivedMessage.channel.send("You, " + usersend + ", have exactly " + bhe + "% big hole energy!")
                                      }
-    if (arguments == "valid") {
-        var valid = Math.floor(Math.random() * 5)
-        if (valid == 0) {
-            receivedMessage.channel.send("You're nothing.")
-        }
-        if (valid == 1) {
-            receivedMessage.channel.send("You're not in my contacts list.")
-        }
-        if (valid == 2) {
-            receivedMessage.channel.send("You're my silly rabbit.")
-        }
-        if (valid == 3) {
-            receivedMessage.channel.send("You're the cunt I married.")
-        }
-        if (valid == 4) {
-            receivedMessage.channel.send("You've got a nice cock.")
-        }
-    }
-    if (arguments == "death") {
-        var hour = Math.floor(Math.random() * 24)
-        var minute = Math.floor(Math.random() * 60)
-        var seconds = Math.floor(Math.random() * 60)
-        var month = Math.floor(Math.random() * 12)
-        var day = Math.floor(Math.random() * 28) + 1
-        var seconds = Math.floor(Math.random() * 60)
-        var year = Math.floor(Math.random() * 100) + 2021
-        var timezonepick = Math.floor(Math.random() * 2)
-        if (timezonepick == 0) {
-          var timezone = "Eastern Standard Time"
-        }
-        if (timezonepick == 1) {
-          var timezone = "Pacific Standard Time"
-        }
-        if (month == "0") {
-            receivedMessage.channel.send("You will die on January " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "1") {
-            receivedMessage.channel.send("You will die on February " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "2") {
-            receivedMessage.channel.send("You will die on March " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "3") {
-            receivedMessage.channel.send("You will die on April " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "4") {
-            receivedMessage.channel.send("You will die on May " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "5") {
-            receivedMessage.channel.send("You will die on June " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "6") {
-            receivedMessage.channel.send("You will die on July " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "7") {
-            receivedMessage.channel.send("You will die on August " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "8") {
-            receivedMessage.channel.send("You will die on September " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "9") {
-            receivedMessage.channel.send("You will die on October " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "10") {
-            receivedMessage.channel.send("You will die on November " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-        if (month == "11") {
-            receivedMessage.channel.send("You will die on December " + day + " at " + hour + ":" + minute + ":" + seconds + " " + timezone + ", in the year of " + year + "!")
-        }
-    }
-    if (arguments == "lobotomy") {
-      receivedMessage.channel.send(":eye::drop_of_blood::lips::drop_of_blood::eye:")
-    }
-   else {
-        receivedMessage.channel.send("I'm sorry, I don't recognize that command!")
-    }
-}
-
 
 function randomspeak() {
     var talk2 = Math.floor(Math.random() * 102)
