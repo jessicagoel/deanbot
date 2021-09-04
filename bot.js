@@ -253,19 +253,19 @@ function helpCommand(arguments, receivedMessage) {
 function randomspeak() {
     var talk2 = Math.floor(Math.random() * 102)
         if (talk2 == 0) {
-            speak = "I'm the cunt you married! The only time you ever liked yourself was when you were trying to be someone this cunt might like! I'm not a quitter, I'm that CUNT. I've killed for you, who else can say that? You think you'd be happy with a nice Midwestern girl? No way, baby! I'm it."
+            speak = "It’s not gay if you don’t use tongue."
         }
         if (talk2 == 1) {
-            speak = "Greetings, bloodfreak!"
+            speak = "I don’t think my husband, Castiel, the inventor of free will, would be too happy to hear about this."
         }
         if (talk2 == 2) {
             speak = "Move, I'm gay."
         }
         if (talk2 == 3) {
-            speak = "So true, bestie."
+            speak = "I’m *thee* Biblical omega."
         }
         if (talk2 == 4) {
-            speak = "So false, worstie."
+            speak = "I could make him worse."
         }
         if (talk2 == 5) {
             speak = "I could fix him."
