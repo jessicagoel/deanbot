@@ -53,14 +53,19 @@ client.on('message', (receivedMessage) => {
     }
     
    else if (receivedMessage.content.toLowerCase().includes('sam')) {
-       var samCheck = \/ssam\s/i
+       var samCheck = /\ssam\s/i
        if (receivedMessage.content.toLowerCase().match(samCheck)) { receivedMessage.channel.send("You wanna see Sam's baby pictures? They're super embarassing.)}
        }
                                                                                                  
    else if (receivedMessage.content.toLowerCase().includes('claire')) {
-       var claireCheck = \/sclaire\s/i
-       if (receivedMessage.content.toLowerCase().match(claireCheck)) { receivedMessage.channel.send("Atta girl.")}
+       var claireCheck = /\sclaire\s/i
+       if (receivedMessage.content.toLowerCase().match(claireCheck)) { receivedMessage.channel.send("Atta girl.")
        }
+           
+    else if (receivedMessage.content.toLowerCase().includes('!cas lobotomy)) {
+          const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
+          receivedMessage.channel.send(attachment)
+                                                                  }
                                                                    
     else if (receivedMessage.content.toLowerCase().startsWith('dean say')) {
         let fullsaying = receivedMessage.content.substr(1)
