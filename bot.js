@@ -62,7 +62,7 @@ client.on('message', (receivedMessage) => {
        if (receivedMessage.content.toLowerCase().match(claireCheck)) { receivedMessage.channel.send("Atta girl.")
        }
            
-    else if (receivedMessage.content.toLowerCase().includes('!cas lobotomy)) {
+    else if (receivedMessage.content.toLowerCase().includes('!cas lobotomy')) {
           const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
           receivedMessage.channel.send(attachment)
                                                                   }
