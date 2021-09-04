@@ -54,7 +54,7 @@ client.on('message', (receivedMessage) => {
     
    else if (receivedMessage.content.toLowerCase().includes('sam')) {
        var samCheck = /\ssam\s/i
-       if (receivedMessage.content.toLowerCase().match(samCheck)) { receivedMessage.channel.send("You wanna see Sam's baby pictures? They're super embarassing.)}
+       if (receivedMessage.content.toLowerCase().match(samCheck)) { receivedMessage.channel.send("You wanna see Sam's baby pictures? They're super embarassing.")}
        }
                                                                                                  
    else if (receivedMessage.content.toLowerCase().includes('claire')) {
