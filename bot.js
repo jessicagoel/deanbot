@@ -76,6 +76,7 @@ client.on('message', (receivedMessage) => {
         receivedMessage.channel.send(stringargument)
 
     }
+        
     else if (receivedMessage.content.toLowerCase().includes('dean how do you feel') || receivedMessage.content.toLowerCase().includes('dean what do you think')) {
         var feelings = Math.floor(Math.random() * 3)
         if (feelings == 0) {
@@ -89,7 +90,6 @@ client.on('message', (receivedMessage) => {
        }
     }
 
-    }
     else if (receivedMessage.content.toLowerCase().includes('dean')) {
         var reply = Math.floor(Math.random() * 50)
         if (reply != 0 && reply != 1 && reply != 2 && reply != 3 && reply!= 4 && reply != 5) {
@@ -119,6 +119,7 @@ client.on('message', (receivedMessage) => {
             const attachment = new Discord.Attachment("https://i.imgur.com/ukPh1Bw.jpg")
             receivedMessage.channel.send(attachment)
         }
+    }
 
     else {
         var emotiPattern = /[\s\n\r\t\0]:.*[)(/][$\s\n\r\t\0]/
