@@ -564,6 +564,4 @@ function randomspeak() {
         if (talk2 == 101) {
             speak = "[SILENCED]"
         }
-}
-}
 client.login(token)
