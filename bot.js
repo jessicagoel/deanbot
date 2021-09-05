@@ -567,5 +567,5 @@ function randomspeak() {
             speak = "[REDACTED]"
         }
 }
-
+}
 client.login(token)
