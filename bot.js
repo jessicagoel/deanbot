@@ -48,7 +48,7 @@ client.on('message', (receivedMessage) => {
         receivedMessage.channel.send(scalevar)
     }
   
-    else if (receivedMessage.content.toLowerCase().includes('cas lobotomy')) {
+    else if (receivedMessage.content.toLowerCase().includes(':eye::drop_of_blood::lips::drop_of_blood::eye:')) {
           const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
           receivedMessage.channel.send(attachment)
     }
