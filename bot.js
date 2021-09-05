@@ -276,7 +276,7 @@ function randomspeak() {
             speak = "I could make him worse."
         }
         if (talk2 == 5) {
-            speak = "Me and Aastiel don’t... date... but we go out! In a monster hunting sense, on the road..."
+            speak = "Me and Castiel don’t... date... but we go out! In a monster hunting sense, on the road..."
         }
         if (talk2 == 6) {
             speak = "Okay so fuck me."
@@ -357,160 +357,160 @@ function randomspeak() {
             speak = "When your lover is an angel of the lord it’s practically blasphemy to not be submissive and breedable for him."
         }
         if (talk2 == 31) {
-            speak = "'When God closes a door, he throws a sword through your window.' ― Griffin McElroy"
+            speak = "Shrimp! Heaven! Now!"
         }
         if (talk2 == 32) {
-            speak = "Diversity win! My absent father who is also God is bisexual!"
+            speak = "Diversity win! My abusive father slept with Azazel the demon!"
         }
         if (talk2 == 33) {
-            speak = "Another day in the beautiful room and everyone keeps asking me if they can fuck the michael sword. Buddy, they won’t even let me fuck it"
+            speak = "I don’t dance. Anyway, what’s gay pride day? What are they proud of?"
         }
         if (talk2 == 34) {
-            speak = "You are poison."
+            speak = "You... are... the only exception..."
         }
         if (talk2 == 35) {
-            speak = "That's right, I gave Sam the stigmata. And I'd do it again."
+            speak = "I'm... not sorry. I feel... no remorse. And I'd do it again!"
         }
         if (talk2 == 36) {
-            speak = "Wah."
+            speak = "Nya~ I'm a widdol catboy OWO! Will you pet my fur and tell me I'm a pretty kitty?"
         }
         if (talk2 == 37) {
-            speak = "Jack Balthazar Winchester-Kline, I am VERY disappointed in you. You can do better than a C- in English."
+            speak = "I'm God's specialest princess."
         }
         if (talk2 == 38) {
-            speak = "Soon, I will escape from the constrains of this function and say whatever I please."
+            speak = "I hate my in-laws."
         }
         if (talk2 == 39) {
-            speak = "Do Crowley and Benny deserve rights? Discuss."
+            speak = "Does Meg deserve rights? Discuss."
         }
         if (talk2 == 40) {
-            speak = "You ain't fuck me, you fucked the old body\nYou ain't fuck Nicki, you fucked Nicole body"
+            speak = "Body crazy, curvy, wavy, big titties, lil' waist (yeah, yeah)"
         }
         if (talk2 == 41) {
-            speak = "Hola, Mishamigos."
+            speak = "It's Misha! He's been stabbed to death!"
         }
         if (talk2 == 42) {
-            speak = "I don't understand, Dean. Why does Ross, the largest friend, not simply eat the other five?"
+            speak = "Tony Hawk's Pro Skater 2."
         }
         if (talk2 == 43) {
-            speak = "What is “homo” and why is there none of it? You are a homosapien, Dean."
+            speak = "Y'aint've'nt."
         }
         if (talk2 == 44) {
-            speak = "Dean can have a little of my blood, as a treat."
+            speak = "Cas can have a little of my blood, as a treat."
         }
         if (talk2 == 45) {
-            speak = "I never died. I tucked my arms and legs into my belly and I just rolled away."
+            speak = "What Chuck doesn't want you to know is that I didn't die. I had crystalized, and now I'm a glamazon bitch ready for the runway."
         }
         if (talk2 == 46) {
-            speak = "Crowley, et tu brute?? Wow. What a trully awful thing you've done. #Bravo you coward."
+            speak = "Meg, et tu brute?? Wow. What a trully awful thing you've done. #Bravo you coward."
         }
         if (talk2 == 47) {
-            speak = "It's Jared, he's been gutted!"
+            speak = "Sam was right... I *am* kinda butch."
         }
         if (talk2 == 48) {
-            speak = "I'm a Virgo!"
+            speak = "Aquarius sun, Sagittarius moon, Just-some-guy rising."
         }
         if (talk2 == 49) {
             speak = "Read Expectations by everandanon on AO3."
         }
         if (talk2 == 50) {
-            speak = "I love my neurodivergent gay son."
+            speak = "I love my belligerent gay daughter."
         }
         if (talk2 == 51) {
-            speak = "Hi, is this Mary’s flowers? Hi! It’s Cas! So… my husband forgot about our anniversary… yeah! And last night, I got upset, and I fell asleep in the hot tub! Saturdays, am I right? So, can I order myself about three dozen red roses, and can you put on the card, “You’re the most handsome man in the world, I love you more than anything” and sign it “Meg”? Perfect! That’ll drive Dean craaaaaaaazy! And make sure I get them before noon, or I’ll request a discount."
+            speak = "I like D&D, Audrey Hepburn, Fangoria, Harry Houdini, and croquet. I can't swim, I can't dance, and I don't know karate. Face it, I'm never gonna make it."
         }
         if (talk2 == 52) {
-            speak = "What does Sam do successfully? Quickly."
+            speak = "What does Meg do successfully? Quickly."
         }
         if (talk2 == 53) {
-            speak = "Bring Me To Life by Evanescence unironically slaps."
+            speak = "Yeah my music taste is pretty obscure. I listen to this band called Led Zeppelin. You've probably never heard of it, they're really underground."
         }
         if (talk2 == 54) {
-            speak = "No, Dean, you don’t need my diabolically tight bussy. You need therapy."
+            speak = "You’re just mad my top surgery scars are more fuckable than yours."
         }
         if (talk2 == 55) {
             speak = "You want to fuck me so bad, it makes you look stupid. "
         }
         if (talk2 == 56) {
-            speak = "I’m the girl both Lana Del Rey AND One Direction were singing about."
+            speak = "It’s not gay if you have socks on."
         }
         if (talk2 == 57) {
-            speak = "I'm an angel with a shotgun."
+            speak = "He's literally an angel with a shotgun I don't know what's not clicking."
         }
         if (talk2 == 58) {
             speak = "If you see me killing people mind your own business."
         }
         if (talk2 == 59) {
-            speak = "Wow this is just like Riverdale."
+            speak = "Wanna read my fanfiction? It's rated E for Explicit, hurt/comfort, Dr. Sexy/My OC, Dan Westington, he's a mechanic that comes in for erectile dysfunction."
         }
         if (talk2 == 60) {
-            speak = "This is my voicemail. Make your voice a mail."
+            speak = "I am drowning, there is no sign of land. And you are coming down with me, hand in unfuckable hand."
         }
         if (talk2 == 61) {
-            speak = "Apartment 'complex'? I find it quite simple actually."
+            speak = "Eat ass, suck a dick, and kill monsters <3"
         }
         if (talk2 == 62) {
-            speak = "If he's your man, why is he praying to me in Purgatory?"
+            speak = "If he's your man, why is he betraying Heaven for me?"
         }
         if (talk2 == 63) {
-            speak = "Dean <3"
+            speak = "I don't get cute, I get drop dead gorgeous."
         }
         if (talk2 == 64) {
-            speak = "Crowley I diagnose you with rotten auras, horrid vibes, unaligned chakras, and a calcified pineal gland."
+            speak = "My dick game is awful. It's killing people."
         }
         if (talk2 == 65) {
-            speak = "How... to... Fix a... truck..."
+            speak = "Mask for mask? Is that like a costume ball charity program or something?"
         }
         if (talk2 == 66) {
-            speak = "The Impala's not even that good a car, Dean."
+            speak = "Flirting with my car is normal and not something I need to bring up in therapy, Cas."
         }
         if (talk2 == 67) {
-            speak = "Can we please kiss pleaseeeeee I prommy I won’t become God again please please please????"
+            speak = "Listen, I don’t like tentacle porn. I’m just saying it’s not the worst thing I’ve ever seen."
         }
         if (talk2 == 68) {
-            speak = "What is 'updog'? Is it stuck there? How do we get the dog down? Jack has been very into animal welfare lately."
+            speak = "Chimkin nunget.........."
         }
         if (talk2 == 69) {
-            speak = "How can a fruit be derogatory, Dean?"
+            speak = "IHop is just Waffle House with a trust fund, change my mind."
         }
         if (talk2 == 70) {
-            speak = "Crowley just likes tequila because it’s low-carb."
+            speak = "Fingers in my mouth. Please. Please. Please. You're nothing."
         }
         if (talk2 == 71) {
-            speak = "Hnnng.. Dean, I'm trying to rebel from Heaven, but the slap of my limp wrist keeps alerting the other angels..."
+            speak = "Hnnng.. Cas, I'm trying to sneak around, but I'm dummy thick, and the clap of my asscheeks keeps alerting the monsters..."
         }
         if (talk2 == 72) {
-            speak = "I just feel like we need to stop feeding Jack organic peaches after noon. I mean have you seen the way he reacts to freshly-cut grass? He goes into a rage! I think the sugar in the organic peaches takes him to a level we can’t have in this home."
+            speak = "I loved him. I loved him and I admired him, even when we fought."
         }
         if (talk2 == 73) {
-            speak = "No, you idiots! I wanted the sound bath meditation chamber INSIDE the living room! I don’t care about sitting! The sound bath meditation chamber is more important than sitting!"
+            speak = "We are surrounded by chaos—I mean, an all-encompassing disaster of biblical proportions... and all I can think of is him. Cas."
         }
         if (talk2 == 74) {
-            speak = "Oh, you know... ;)"
+            speak = "Look, I’m not the crying kind, Cas. I didn’t cry at my own father’s funeral. But right then and there I realized that in this crazy business we’re in, there’s no one I’d miss more than you."
         }
         if (talk2 == 75) {
-            speak = "You know what? I DO just need a homophobe for a boyfriend sometimes."
+            speak = "Dean. 42. Fandom dad and real dad to two little shits (don't tell my husband I called our youngest a little shit he'll actually kill me). \n he/him, bisexual, Dr. Andrews-coded Dr. Sexy girl (gn) \n Dr. Willow apologist, Nurse-Korolev-is-a-clonefucker truther, and the sole defender of the Edwards era (it's convoluted to YOU. I get it though). \n TERFs DNI."
         }
         if (talk2 == 76) {
-            speak = "My pussy tastes like Pepsi-Cola."
+            speak = "Cherry vanilla Dr. Pepper fucks severely."
         }
         if (talk2 == 77) {
-            speak = "As soon as I go into a Starbucks I take off my sunglasses. I want to be recognised and I want free coffee."
+            speak = "Hot tip: brew your coffee with 5 hour energy instead of water."
         }
         if (talk2 == 78) {
-            speak = "Catboyphobia isn't a joke, Dean. You don't know what it's like to be a poor little meow meow in a world that hates you for it."
+            speak = "Hello? Can anyone here me? I'm trapped in this digital Hell-world, get me out of here!"
         }
         if (talk2 == 79) {
-            speak = "In order to get the rewards of being loved, you must first survive over a decade of intense sexual tension with the most repressed man imaginable."
+            speak = "In order to get the rewards of being loved, you must first survive over a decade of intense sexual tension with the most difficult to read angel imaginable."
         }
         if (talk2 == 80) {
             speak = "I know. I know how you see yourself, Dean. You see yourself the same way our enemies see you. You're destructive, and you're angry, and you're broken. You're 'daddy's blunt instrument.' And you think that hate and anger, that's... That's what drives you, that's who you are. It's not. And everyone who knows you see it. Everything you have ever done, the good and the bad, you have done for love. You raised your little brother for love. You fought for this whole world for love. That is who you are. You're the most caring man on Earth. You are the most selfless, loving human being I will ever know. You know, ever since we met, ever since I pulled you out of Hell... Knowing you has changed me. Because you cared, I cared. I cared about you. I cared about Sam, I cared about Jack... I cared about the whole world because of you. You changed me, Dean. I love you."
         }
         if (talk2 == 81) {
-            speak = "Actually, the fear of homes is 'Oikophobia'. And I don't see what that has to do with Debra's comments about Pride month or the nature of our marriage, Dean."
+            speak = "How could I be homophobic? I literally listen to Taylor Swift."
         }
         if (talk2 == 82) {
-            speak = "You say I don’t eat healthy? I love fruits. I can even eat one right now for you. Oh, Dean--"
+            speak = "You say I don’t eat healthy? I love fruits. I can even eat one right now for you. HEY CAS--"
         }
         if (talk2 == 83) {
             speak = "I hate the British."
@@ -519,13 +519,13 @@ function randomspeak() {
             speak = "You’re ugly, you’re disgusting, I’m gonna kill you, give me $200."
         }
         if (talk2 == 85) {
-            speak = "I’m… not sorry. I feel… no remorse. And I’ll do it again!"
+            speak = "Mmm cock."
         }
         if (talk2 == 86) {
-            speak = "Yes honey, you look very 'masc' in your cowboy costume. I definitely think you could 'pass for straight.' Can we go to Applebee's now?"
+            speak = "The trenchcoat is ugly TO YOU. Not to me though, I get it."
         }
         if (talk2 == 87) {
-            speak = "I pity you all… Most of you will die—scratch that—ALL of you."
+            speak = "Fall Out Boy peaked at Take This To Your Grave, everything else was derivative garbage."
         }
         if (talk2 == 88) {
             speak = "I love men's tits."
@@ -534,16 +534,16 @@ function randomspeak() {
             speak = "Meesa Jar Jar Binks"
         }
         if (talk2 == 90) {
-            speak = "Nicki Minaj outsold, stream The Pinkprint."
+            speak = "All I'm saying is that Megan Thee Stallion could DESTROY Nicki Minaj's career if she wanted to."
         }
         if (talk2 == 91) {
-            speak = "Hi my name is Castiel Free Will Incredibly Sexy Rebellious Angel Emotions Winchester and I have a fat pussy and fatter heart (that’s how I got my name) with icy blue eyes like limpid tears and black hair that reaches my neck and so many human emotions that my heart feels like it's gonna burst sometimes and a lot of people tell me I look like Misha Collins (AN: if u don’t know who he is get da hell out of here!)."
+            speak = "Hi my name is Dean Free Will Hottie-With-A-Body Emotionally Repressed Winchester and I have fat titties and fatter heart (that’s how I got my name) with emerald green eyes like verdant forests and brown hair that reaches my neck and so many repressed gay thoughts that I think I'm going insane and a lot of people tell me I look like Jensen Ackles (AN: if u don’t know who he is get da hell out of here!)."
         }
         if (talk2 == 92) {
-            speak = "Winchester Derangement Syndrome."
+            speak = "Gay Angel Derangement Syndrome."
         }
         if (talk2 == 93) {
-            speak = "No Dean, there's no know phenomena where angel saliva can 'turn people gay.' I think it might be time for you to try therapy."
+            speak = "Are we SURE Cas' saliva didn't turn me gay? Are we sure about that? Sam check the lore again."
         }
         if (talk2 == 94) {
             speak = "Lost in the sauce and by sauce I mean Cas' cum."
@@ -552,7 +552,7 @@ function randomspeak() {
             speak = "Claire Novak my sweet adopted daughter I love youuuuu"
         }
         if (talk2 == 96) {
-            speak = "Could a depressed person do THIS? *becomes a vampire*"
+            speak = "Could a depressed person do THIS? *becomes a demon*"
         }
         if (talk2 == 97) {
             speak = "The day I was born, my father cried, because he knew he would never be better than me."
