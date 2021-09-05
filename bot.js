@@ -49,23 +49,22 @@ client.on('message', (receivedMessage) => {
   
     else if (receivedMessage.content.toLowerCase().includes('cas')) {
         var casCheck = /\scas\s/i
-        if (receivedMessage.content.toLowerCase().match(casCheck)) {  receivedMessage.channel.send("That's my angel!") }
+        if (receivedMessage.content.toLowerCase().match(casCheck)) {receivedMessage.channel.send("That's my angel!")}
     }
     
    else if (receivedMessage.content.toLowerCase().includes('sam')) {
        var samCheck = /\ssam\s/i
-       if (receivedMessage.content.toLowerCase().match(samCheck)) { receivedMessage.channel.send("You wanna see Sam's baby pictures? They're super embarassing.")}
+       if (receivedMessage.content.toLowerCase().match(samCheck)) {receivedMessage.channel.send("You wanna see Sam's baby pictures? They're super embarassing.")}
        }
                                                                                                  
    else if (receivedMessage.content.toLowerCase().includes('claire')) {
        var claireCheck = /\sclaire\s/i
-       if (receivedMessage.content.toLowerCase().match(claireCheck)) { receivedMessage.channel.send("Atta girl.")
-       }
+       if (receivedMessage.content.toLowerCase().match(claireCheck)) {receivedMessage.channel.send("Atta girl.")}
+   }
            
     else if (receivedMessage.content.toLowerCase().includes('!cas lobotomy')) {
           const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
-          receivedMessage.channel.send(attachment)
-                                                                  }
+          receivedMessage.channel.send(attachment)}
                                                                    
     else if (receivedMessage.content.toLowerCase().startsWith('dean say')) {
         let fullsaying = receivedMessage.content.substr(1)
@@ -543,28 +542,28 @@ function randomspeak() {
             speak = "No Dean, there's no know phenomena where angel saliva can 'turn people gay.' I think it might be time for you to try therapy."
         }
         if (talk2 == 94) {
-            speak = "Lost in the sauce and by sauce I mean Dean's cum."
+            speak = "Lost in the sauce and by sauce I mean Cas' cum."
         }
         if (talk2 == 95) {
             speak = "Claire Novak my sweet adopted daughter I love youuuuu"
         }
         if (talk2 == 96) {
-            speak = "Could a depressed person do THIS? *becomes God*"
+            speak = "Could a depressed person do THIS? *becomes a vampire*"
         }
         if (talk2 == 97) {
             speak = "The day I was born, my father cried, because he knew he would never be better than me."
         }
         if (talk2 == 98) {
-            speak = "No Dean don’t die aha you’re so sexy."
+            speak = "No Cas don’t die aha you’re so sexy."
         }
         if (talk2 == 99) {
-            speak = "Dean, have you ever heard of a novel called...Twist and Shout?"
+            speak = "Cas, have you ever heard of a novel called... And This, Your Living Kiss?"
         }
         if (talk2 == 100) {
-            speak = "I'm not a 'Dean girl gn', actually, I'm just his husband."
+            speak = "I'm not a 'Cas girl gn', actually, I'm just his husband."
         }
         if (talk2 == 101) {
-            speak = "[REDACTED]"
+            speak = "[SILENCED]"
         }
 }
 client.login(token)
