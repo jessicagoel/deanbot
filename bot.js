@@ -78,8 +78,17 @@ client.on('message', (receivedMessage) => {
        var claireCheck = /\sclaire\s/i
        if (receivedMessage.content.toLowerCase().match(claireCheck)) {receivedMessage.channel.send("Atta girl.")}
    }
+    
+  else if (receivedMessage.content.toLowerCase().includes('benny')) {
+       var bennyCheck = /\sbenny\s/i
+       if (receivedMessage.content.toLowerCase().match(bennyCheck)) {receivedMessage.channel.send("I did not have sexual relations with that vampire.")}
+   }
                                                                   
-        
+  else if (receivedMessage.content.toLowerCase().includes('crowley')) {
+       var crowCheck = /\scrowley\s/i
+       if (receivedMessage.content.toLowerCase().match(crowCheck)) {receivedMessage.channel.send("I did not have sexual relations with that demon.")}
+   }
+    
     else if (receivedMessage.content.toLowerCase().includes('dean how do you feel') || receivedMessage.content.toLowerCase().includes('dean what do you think')) {
         var feelings = Math.floor(Math.random() * 3)
         if (feelings == 0) {
@@ -174,7 +183,21 @@ function helpCommand(arguments, receivedMessage) {
     if (arguments == "help") {
         receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
     }
-
+    
+    if (arguments == "fuck") {
+        var fuckReply = Math.floor(Math.random() * 5)
+        if (fuckReply == "0") {
+            receivedMessage.channel.send("Sure, which one of us gets to be the girl?") }
+        if (fuckReply == "1") {
+            receivedMessage.channel.send("*presents* Like this?") }
+        if (fuckReply == "2") { 
+            receivedMessage.channel.send("Buy me dinner first.") }
+        if (fuckReply == "3") {
+            receivedMessage.channel.send("OWO *nuzzles ur bulgie wulgie*") }
+        if (fuckReply == "4") {
+            receivedMessage.channel.send("Only if you wear this cowboy hat and call me 'pardner' the whole time.") }
+    }
+    
     if (arguments == "talk") {
         var talk1 = Math.floor(Math.random() * 20)
         if (talk1 == 0) {
