@@ -304,10 +304,10 @@ function randomspeak() {
             speak = "Send noods."
         }
         if (talk2 == 14) {
-            speak = "Naruto."
+            speak = "What we did wasn’t gay. I was the girl."
         }
         if (talk2 == 15) {
-            speak = "I have never done anything wrong, in my life, ever."
+            speak = "Straight people? You know those aren’t real, right?"
         }
         if (talk2 == 16) {
             speak = "Hey, u up? :wink:"
@@ -319,10 +319,10 @@ function randomspeak() {
             speak = "Ahaha what if you trapped me in a beautiful room where you could watch me but I couldn't watch you like a sexy panopticon haha jk... unless?"
         }
         if (talk2 == 19) {
-            speak = "Who wants to be boy best friends?"
+            speak = "I mean yeah, Cas and I have sex every day at least twice a day, but we always say no homo when we’re done. Well, I do. He doesn’t."
         }
         if (talk2 == 20) {
-            speak = "Oh no! I'm leaking!"
+            speak = "Slurp on my ‘gurt. Cause you know it's purp. Put me in the dirt. Put me in a shirt."
         }
         if (talk2 == 21) {
             speak = "Who here hasn’t died a few times between friends?"
@@ -331,16 +331,16 @@ function randomspeak() {
             speak = "Murder is okay."
         }
         if (talk2 == 23) {
-            speak = "Everyone is addicted to my Fun and Flirty personality. Lives have been destroyed."
+            speak = "Don’t stomp your little last season Prada shoes at me, honey."
         }
         if (talk2 == 24) {
-            speak = "I construct intricate rituals to touch the skin of other men."
+            speak = "Do NOT raise your voice at me. I am your MOTHER!"
         }
         if (talk2 == 25) {
             speak = "Make like Elsa. Let it go."
         }
         if (talk2 == 26) {
-            speak = "? No"
+            speak = "Any hole is a goal."
         }
         if (talk2 == 27) {
             speak = "Are you winning, son?"
@@ -352,22 +352,22 @@ function randomspeak() {
             speak = "You know, how sometimes every man just has sex with other men and sometimes like... boy crushes that's not gay right haha..."
         }
         if (talk2 == 29) {
-            speak = "I hope it stays dark forever. I hope the worst isn't over. And I hope you blink before I do. And I hope I never get sober."
+            speak = "I wanna be a cowboy, baby!"
         }
         if (talk2 == 30) {
             speak = "When your lover is an angel of the lord it’s practically blasphemy to not be submissive and breedable for him."
         }
         if (talk2 == 31) {
-            speak = "Shrimp! Heaven! Now!"
+            speak = "I'm five foot somethin’ but my bills all paid \n On my tippie toes from LA to the Bay \n Goin' off the deep end, chill in the shallow \n You don't need your heels girl, just bring a towel"
         }
         if (talk2 == 32) {
-            speak = "Diversity win! My abusive father slept with Azazel the demon!"
+            speak = "Oh what so you're mad because I gaslit you? That was like two weeks ago. Move on dot org."
         }
         if (talk2 == 33) {
             speak = "I don’t dance. Anyway, what’s gay pride day? What are they proud of?"
         }
         if (talk2 == 34) {
-            speak = "You... are... the only exception..."
+            speak = "If you didn't want my brother to bite you, you shouldn't have put your hand next to his mouth."
         }
         if (talk2 == 35) {
             speak = "I'm... not sorry. I feel... no remorse. And I'd do it again!"
@@ -379,10 +379,10 @@ function randomspeak() {
             speak = "I'm God's specialest princess."
         }
         if (talk2 == 38) {
-            speak = "I hate my in-laws."
+            speak = "Got diagnosed with cool guy syndrome… so now I take... Adderall."
         }
         if (talk2 == 39) {
-            speak = "Does Meg deserve rights? Discuss."
+            speak = "Cas thinks he's being clever by putting my pills in peanut butter but he doesn't realize that I know they're in there and like the crunch."
         }
         if (talk2 == 40) {
             speak = "Body crazy, curvy, wavy, big titties, lil' waist (yeah, yeah)"
@@ -394,7 +394,7 @@ function randomspeak() {
             speak = "Tony Hawk's Pro Skater 2."
         }
         if (talk2 == 43) {
-            speak = "Y'aint've'nt."
+            speak = "Y'ain't've'nt."
         }
         if (talk2 == 44) {
             speak = "Cas can have a little of my blood, as a treat."
@@ -421,7 +421,7 @@ function randomspeak() {
             speak = "I like D&D, Audrey Hepburn, Fangoria, Harry Houdini, and croquet. I can't swim, I can't dance, and I don't know karate. Face it, I'm never gonna make it."
         }
         if (talk2 == 52) {
-            speak = "What does Meg do successfully? Quickly."
+            speak = "I wear the apron in this relationship."
         }
         if (talk2 == 53) {
             speak = "Yeah my music taste is pretty obscure. I listen to this band called Led Zeppelin. You've probably never heard of it, they're really underground."
@@ -430,7 +430,7 @@ function randomspeak() {
             speak = "You’re just mad my top surgery scars are more fuckable than yours."
         }
         if (talk2 == 55) {
-            speak = "You want to fuck me so bad, it makes you look stupid. "
+            speak = "You want to fuck me so bad, it makes you look stupid."
         }
         if (talk2 == 56) {
             speak = "It’s not gay if you have socks on."
@@ -505,16 +505,16 @@ function randomspeak() {
             speak = "In order to get the rewards of being loved, you must first survive over a decade of intense sexual tension with the most difficult to read angel imaginable."
         }
         if (talk2 == 80) {
-            speak = "I know. I know how you see yourself, Dean. You see yourself the same way our enemies see you. You're destructive, and you're angry, and you're broken. You're 'daddy's blunt instrument.' And you think that hate and anger, that's... That's what drives you, that's who you are. It's not. And everyone who knows you see it. Everything you have ever done, the good and the bad, you have done for love. You raised your little brother for love. You fought for this whole world for love. That is who you are. You're the most caring man on Earth. You are the most selfless, loving human being I will ever know. You know, ever since we met, ever since I pulled you out of Hell... Knowing you has changed me. Because you cared, I cared. I cared about you. I cared about Sam, I cared about Jack... I cared about the whole world because of you. You changed me, Dean. I love you."
+            speak = "I can dig Elvis."
         }
         if (talk2 == 81) {
             speak = "How could I be homophobic? I literally listen to Taylor Swift."
         }
         if (talk2 == 82) {
-            speak = "You say I don’t eat healthy? I love fruits. I can even eat one right now for you. HEY CAS--"
+            speak = "Do I look like someone with a good relationship with their dad?"
         }
         if (talk2 == 83) {
-            speak = "I hate the British."
+            speak = "I'll just keep all my emotions right here, and then one day I'll die."
         }
         if (talk2 == 84) {
             speak = "You’re ugly, you’re disgusting, I’m gonna kill you, give me $200."
@@ -532,7 +532,7 @@ function randomspeak() {
             speak = "I love men's tits."
         }
         if (talk2 == 89) {
-            speak = "Meesa Jar Jar Binks"
+            speak = "Meesa Jar Jar Binks."
         }
         if (talk2 == 90) {
             speak = "All I'm saying is that Megan Thee Stallion could DESTROY Nicki Minaj's career if she wanted to."
@@ -547,7 +547,7 @@ function randomspeak() {
             speak = "Are we SURE Cas' saliva didn't turn me gay? Are we sure about that? Sam check the lore again."
         }
         if (talk2 == 94) {
-            speak = "Lost in the sauce and by sauce I mean Cas' cum."
+            speak = "Demons lie it's like their whole thing. So you can't trust Crowley when he says we had a hot summer of nonstop gay sex it's just regular demon talk he says that about everyone."
         }
         if (talk2 == 95) {
             speak = "Claire Novak my sweet adopted daughter I love youuuuu"
@@ -556,7 +556,7 @@ function randomspeak() {
             speak = "Could a depressed person do THIS? *becomes a demon*"
         }
         if (talk2 == 97) {
-            speak = "The day I was born, my father cried, because he knew he would never be better than me."
+            speak = "I've been thinking about getting a tramp stamp lately."
         }
         if (talk2 == 98) {
             speak = "No Cas don’t die aha you’re so sexy."
