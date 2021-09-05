@@ -85,7 +85,7 @@ client.on('message', (receivedMessage) => {
             receivedMessage.channel.send("Not great, but I'm generally an anxious person, so who knows.")
         }
         if (feelings == 1) {
-           receivedMessage.channel.send("That's... actually not a bad idea. Wow. That's a first for you.")
+           receivedMessage.channel.send("That's... actually not that bad. Wow. That's a first for you.")
         }
         if (feelings == 2) {
             receivedMessage.channel.send("That seems like a you problem.")
