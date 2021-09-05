@@ -48,6 +48,11 @@ client.on('message', (receivedMessage) => {
         receivedMessage.channel.send(scalevar)
     }
   
+    else if (receivedMessage.content.toLowerCase().includes('!cas lobotomy')) {
+          const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
+          receivedMessage.channel.send(attachment)
+    }
+    
     else if (receivedMessage.content.toLowerCase().includes('cas')) {
         var casCheck = /\scas\s/i
         if (receivedMessage.content.toLowerCase().match(casCheck)) {receivedMessage.channel.send("That's my angel!")}
@@ -62,10 +67,6 @@ client.on('message', (receivedMessage) => {
        var claireCheck = /\sclaire\s/i
        if (receivedMessage.content.toLowerCase().match(claireCheck)) {receivedMessage.channel.send("Atta girl.")}
    }
-           
-    else if (receivedMessage.content.toLowerCase().includes('cas lobotomy')) {
-          const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
-          receivedMessage.channel.send(attachment)}
                                                                    
     else if (receivedMessage.content.toLowerCase().startsWith('dean say')) {
         let fullsaying = receivedMessage.content.substr(1)
