@@ -567,4 +567,5 @@ function randomspeak() {
             speak = "[SILENCED]"
         }
 }
+}
 client.login(token)
