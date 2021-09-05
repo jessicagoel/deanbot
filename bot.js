@@ -276,31 +276,31 @@ function randomspeak() {
             speak = "I could make him worse."
         }
         if (talk2 == 5) {
-            speak = "I could fix him."
+            speak = "Me and Aastiel don’t... date... but we go out! In a monster hunting sense, on the road..."
         }
         if (talk2 == 6) {
             speak = "Okay so fuck me."
         }
         if (talk2 == 7) {
-            speak = "Little babies need to keep their hats on when it's cold."
+            speak = "My husband is the most fuckable person at this PTA meeting and I’m going to kill the next person who looks at him."
         }
         if (talk2 == 8) {
-            speak = "I just took a DNA test, turns out I'm 100% that bitch."
+            speak = "Wtf am I gonna go to a therapist for?? So I can pay money for some bitch tell me I'm gay? To find out I'm gay and in the closet? To help me discover deep down that I'm a gay ass homosexual man? Lmao pass. Miss me with that shit. I'm straight. I am straight."
         }
         if (talk2 == 9) {
-            speak = "Have you ever thought about snails? Some humans think that the story of cupid comes from snails, which shoot “love darts” at the object of their affections, containing a mucus that increases the chances of their sperm surviving. Before they knew that though, humans theorized that the darts were an aphrodisiac, hence inspiring Cupid. This is of course false, Cupids are an essential rank of angel."
+            speak = "Someday, if you have kids, and you have to start killing people, you’ll appreciate how well your mother and I are doing."
         }
         if (talk2 == 10) {
-            speak = "Dean -_-"
+            speak = "Cas :pleading_face:"
         }
         if (talk2 == 11) {
-            speak = "According to all known laws of aviation, there is no way a bee should be able to fly."
+            speak = "ACAB"
         }
         if (talk2 == 12) {
-            speak = "You ruined me and they all know it!"
+            speak = "Sweetheart, you bought a car and now you’re grinding on the neighbors. This is not who you are"
         }
         if (talk2 == 13) {
-            speak = "I'm an angel. I'm incapable of lying."
+            speak = "Send noods."
         }
         if (talk2 == 14) {
             speak = "Naruto."
@@ -309,13 +309,13 @@ function randomspeak() {
             speak = "I have never done anything wrong, in my life, ever."
         }
         if (talk2 == 16) {
-            speak = "I am just doing the dishes."
+            speak = "Hey, u up? :wink:"
         }
         if (talk2 == 17) {
-            speak = "While gathering food, a bee may fly up to 60 miles in one day."
+            speak = "My kid could kick your kid’s ass."
         }
         if (talk2 == 18) {
-            speak = "Ahaha what if I trapped you in a beautiful room where I could watch you but you couldn't watch me like a sexy panopticon haha jk…. unless?"
+            speak = "Ahaha what if you trapped me in a beautiful room where you could watch me but I couldn't watch you like a sexy panopticon haha jk... unless?"
         }
         if (talk2 == 19) {
             speak = "Who wants to be boy best friends?"
@@ -324,19 +324,19 @@ function randomspeak() {
             speak = "Oh no! I'm leaking!"
         }
         if (talk2 == 21) {
-            speak = "Anyone wanna step on some fish?"
+            speak = "Who here hasn’t died a few times between friends?"
         }
         if (talk2 == 22) {
-            speak = "Gender politics delirious. Gender politics mysterious, even."
+            speak = "Murder is okay."
         }
         if (talk2 == 23) {
             speak = "Everyone is addicted to my Fun and Flirty personality. Lives have been destroyed."
         }
         if (talk2 == 24) {
-            speak = "My Gorilla Grip pussy is immaculate. People would go to war for this hoohaa. Commit fratricide to swipe their nose like a credit card."
+            speak = "I construct intricate rituals to touch the skin of other men."
         }
         if (talk2 == 25) {
-            speak = "No <3"
+            speak = "Make like Elsa. Let it go."
         }
         if (talk2 == 26) {
             speak = "? No"
@@ -345,16 +345,16 @@ function randomspeak() {
             speak = "Are you winning, son?"
         }
         if (talk2 == 27) {
-            speak = "Dean, did you know that termites use vibrations to know what kind of wood they have around them? These vibrations allow them to find the best source of food. Whenever they hear loud rock music, they can chew through the wood faster than their regular pace. Isn't that interesting, Dean?"
+            speak = "The cowboy hat stays ON during sex."
         }
         if (talk2 == 28) {
-            speak = "**Soon.**"
+            speak = "You know, how sometimes every man just has sex with other men and sometimes like... boy crushes that's not gay right haha..."
         }
         if (talk2 == 29) {
-            speak = "Throw the whole man away."
+            speak = "I hope it stays dark forever. I hope the worst isn't over. And I hope you blink before I do. And I hope I never get sober."
         }
         if (talk2 == 30) {
-            speak = "I growl when I suck dick."
+            speak = "When your lover is an angel of the lord it’s practically blasphemy to not be submissive and breedable for him."
         }
         if (talk2 == 31) {
             speak = "'When God closes a door, he throws a sword through your window.' ― Griffin McElroy"
