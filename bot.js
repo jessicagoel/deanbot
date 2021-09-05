@@ -132,8 +132,6 @@ client.on('message', (receivedMessage) => {
             receivedMessage.channel.send(startEmoti)
         }
     }
-}
-
 function processCommand(receivedMessage) {
     let fullCommand = receivedMessage.content.substr(1)
     let splitCommand = fullCommand.split(" ")
