@@ -5,12 +5,12 @@ const token = process.env.DISCORD_BOT_SECRET;
 client.on('ready', () => {
     console.log("Connected as " + client.user.tag)
     console.log("Servers:")
-    client.guilds.forEach((guild) => {
-        console.log(" - " + guild.name)
-    })
+    client.guilds.forEach((guild) => 
+    {console.log(" - " + guild.name)})
     client.user.setActivity("Sitting on the beach")
     
 })
+
 client.on('message', (receivedMessage) => {
     if (receivedMessage.author == client.user) {
         return
@@ -41,6 +41,7 @@ client.on('message', (receivedMessage) => {
         if (fuckyou == "3") {
             const attachment = new Discord.Attachment("https://i.imgur.com/F0RgJBw.jpg")
             receivedMessage.channel.send(attachment)
+        }
     }
     else if (receivedMessage.content.toLowerCase().includes('dean') && receivedMessage.content.toLowerCase().includes('on a scale of 1 to 10')) {
         var scalevar = Math.floor(Math.random() * 10) + 1
@@ -132,6 +133,8 @@ client.on('message', (receivedMessage) => {
             receivedMessage.channel.send(startEmoti)
         }
     }
+
+
 function processCommand(receivedMessage) {
     let fullCommand = receivedMessage.content.substr(1)
     let splitCommand = fullCommand.split(" ")
@@ -240,18 +243,20 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send(speak)
     }
 
-    if (arguments == "bde") {
+    if (arguments == "bde") 
+    {
         var bde = Math.floor(Math.random() * 101)
         var usersend = receivedMessage.author.toString()
         receivedMessage.channel.send("You, " + usersend + ", have exactly " + bde + "% big dick energy!")
 
     }
 
-    if (arguments == "bhe") {
+    if (arguments == "bhe") 
+    {
         var bhe = Math.floor(Math.random() * 101)
         var usersend = receivedMessage.author.toString()
-        receivedMessage.channel.send("You, " + usersend + ", have exactly " + bhe + "% big hole energy!")
-                                     }
+        receivedMessage.channel.send("You, " + usersend + ", have exactly " + bhe + "% big hole energy!") 
+    }
 
 function randomspeak() {
     var talk2 = Math.floor(Math.random() * 102)
@@ -564,4 +569,7 @@ function randomspeak() {
         if (talk2 == 101) {
             speak = "[SILENCED]"
         }
+    }
+}
+    
 client.login(token)
