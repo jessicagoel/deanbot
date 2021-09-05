@@ -489,7 +489,7 @@ function randomspeak() {
             speak = "Look, I’m not the crying kind, Cas. I didn’t cry at my own father’s funeral. But right then and there I realized that in this crazy business we’re in, there’s no one I’d miss more than you."
         }
         if (talk2 == 75) {
-            speak = "Dean. 42. Fandom dad and real dad to two little shits (don't tell my husband I called our youngest a little shit he'll actually kill me). \n he/him, bisexual, Dr. Andrews-coded Dr. Sexy girl (gn) \n Dr. Willow apologist, Nurse-Korolev-is-a-clonefucker truther, and the sole defender of the Edwards era (it's convoluted to YOU. I get it though). \n TERFs DNI."
+            speak = "Dean. 42. Fandom dad and real dad to two little shits (don't tell my husband I called our youngest a little shit he'll actually kill me).\nHe/him, bisexual, Dr. Andrews-coded Dr. Sexy girl (gn)\nDr. Willow apologist, Nurse-Korolev-is-a-clonefucker truther, and the sole defender of the Edwards era (it's convoluted to YOU. I get it though).\nTERFs DNI."
         }
         if (talk2 == 76) {
             speak = "Cherry vanilla Dr. Pepper fucks severely."
