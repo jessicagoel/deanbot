@@ -94,7 +94,7 @@ client.on('message', (receivedMessage) => {
     else if (receivedMessage.content.toLowerCase().includes('dean')) {
         var reply = Math.floor(Math.random() * 50)
         if (reply != 0 && reply != 1 && reply != 2 && reply != 3 && reply!= 4 && reply != 5) {
-               receivedMessage.channel.send("What, bitch?")
+               receivedMessage.channel.send("What?")
         }
         if (reply == 0) {
             const attachment = new Discord.Attachment("https://i.imgur.com/eJFeD10.jpg")
