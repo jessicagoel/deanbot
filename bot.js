@@ -48,6 +48,17 @@ client.on('message', (receivedMessage) => {
         receivedMessage.channel.send(scalevar)
     }
   
+    else if (receivedMessage.content.toLowerCase().startsWith('dean say')) {
+        let fullsaying = receivedMessage.content.substr(1)
+        let splitsaying = fullsaying.split(" ")
+        let argumentsaying = splitsaying.slice(2)
+        let stringargument = argumentsaying.toString()
+        let newchar = ' '
+        stringargument = stringargument.split(',').join(newchar)
+        receivedMessage.channel.send(stringargument)
+
+    }
+    
     else if (receivedMessage.content.toLowerCase().includes(':eye::drop_of_blood::lips::drop_of_blood::eye:')) {
           const attachment = new Discord.Attachment("https://i.imgur.com/RwhLGmv.jpg")   
           receivedMessage.channel.send(attachment)
@@ -67,17 +78,7 @@ client.on('message', (receivedMessage) => {
        var claireCheck = /\sclaire\s/i
        if (receivedMessage.content.toLowerCase().match(claireCheck)) {receivedMessage.channel.send("Atta girl.")}
    }
-                                                                   
-    else if (receivedMessage.content.toLowerCase().startsWith('dean say')) {
-        let fullsaying = receivedMessage.content.substr(1)
-        let splitsaying = fullsaying.split(" ")
-        let argumentsaying = splitsaying.slice(2)
-        let stringargument = argumentsaying.toString()
-        let newchar = ' '
-        stringargument = stringargument.split(',').join(newchar)
-        receivedMessage.channel.send(stringargument)
-
-    }
+                                                                  
         
     else if (receivedMessage.content.toLowerCase().includes('dean how do you feel') || receivedMessage.content.toLowerCase().includes('dean what do you think')) {
         var feelings = Math.floor(Math.random() * 3)
