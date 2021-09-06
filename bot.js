@@ -283,7 +283,7 @@ function helpCommand(arguments, receivedMessage) {
     }
 
 function randomspeak() {
-    var talk2 = Math.floor(Math.random() * 102)
+    var talk2 = Math.floor(Math.random() * 104)
         if (talk2 == 0) {
             speak = "It’s not gay if you don’t use tongue."
         }
@@ -417,7 +417,7 @@ function randomspeak() {
             speak = "Tony Hawk's Pro Skater 2."
         }
         if (talk2 == 43) {
-            speak = "Y'ain't've'nt."
+            speak = "Y'all'd't've."
         }
         if (talk2 == 44) {
             speak = "Cas can have a little of my blood, as a treat."
@@ -592,6 +592,12 @@ function randomspeak() {
         }
         if (talk2 == 101) {
             speak = "[SILENCED]"
+        }
+        if (talk2 == 102) {
+            speak = "Nazis fuck off."
+        }
+        if (talk2 == 103) {
+            speak = "I like to start my morning off right: A bowl of Wheaties and burning the Confederate flag."
         }
     }
 }
