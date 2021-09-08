@@ -162,7 +162,7 @@ function helpCommand(arguments, receivedMessage) {
         client.destroy()
     }
     if (arguments.length == 0) {
-            receivedMessage.channel.send("Hey there! Say `!dean help` for a list of commands.")
+            receivedMessage.channel.send("Morning, sunshine! Say `!dean help` for a list of commands.")
     }
     else {
       arguments = arguments[0]
