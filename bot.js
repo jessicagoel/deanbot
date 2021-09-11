@@ -184,6 +184,11 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
     }
     
+    if (arguments == "birth") {
+        const bday = new Discord.Attachment("https://i.imgur.com/Dju5GON.mp4")
+        receivedMessage.channel.send(bday)
+    }
+    
     if (arguments == "fuck") {
         var fuckReply = Math.floor(Math.random() * 5)
         if (fuckReply == "0") {
