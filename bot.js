@@ -189,6 +189,15 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send(bday)
     }
     
+    if (arguments == "kill") {
+        const attachment = new Discord.Attachment("https://i.imgur.com/dL4f27U.gif")
+        receivedMessage.channel.send(attachment)
+        setTimeout(function(){ 
+            const attachment2 = new Discord.Attachment("https://i.imgur.com/4VSDX1g.gif")
+            receivedMessage.channel.send(attachment2)
+        }, 2000)
+    }
+    
     if (arguments == "fuck") {
         var fuckReply = Math.floor(Math.random() * 5)
         if (fuckReply == "0") {
