@@ -175,7 +175,16 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send(attachment)
     }
     if (arguments == "kiss") {
-        receivedMessage.channel.send("Woah! Hands off, I'm a married man!")
+        var kiss = Math.floor(Math.random() * 50)
+        if (kiss == 50) {
+            const attachment = new Discord.Attachment("https://i.imgur.com/HyWK6Cr.jpg")
+            receivedMessage.channel.send(attachment)
+        }
+        else {
+            receivedMessage.channel.send("Woah! Hands off, I'm a married man!") 
+        }
+
+            
     }
     if (arguments == "hold") {
         receivedMessage.channel.send("No one's ever done this for me before...")
