@@ -176,7 +176,7 @@ function helpCommand(arguments, receivedMessage) {
     }
     if (arguments == "kiss") {
         var kiss = Math.floor(Math.random() * 50)
-        if (kiss == 50) {
+        if (kiss == 0) {
             const attachment = new Discord.Attachment("https://i.imgur.com/HyWK6Cr.jpg")
             receivedMessage.channel.send(attachment)
         }
