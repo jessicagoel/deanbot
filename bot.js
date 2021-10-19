@@ -190,7 +190,7 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send("No one's ever done this for me before...")
     }
     if (arguments == "help") {
-        receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
+        receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n `!dean fuck`: Become Cas-coded \n `!dean kill': Become Gabriel-coded \n '!dean birth`: Have me wish you a happy birthday \n `!dean love`: Tell me you love me \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
     }
     
     if (arguments == "birth") {
@@ -220,7 +220,20 @@ function helpCommand(arguments, receivedMessage) {
         if (fuckReply == "4") {
             receivedMessage.channel.send("Only if you wear this cowboy hat and call me 'pardner' the whole time.") }
     }
-    
+        if (arguments == "love") {
+        var loveReply = Math.floor(Math.random() * 5)
+        if (loveReply == "0") {
+            var usersend = receivedMessage.author.toString()
+            receivedMessage.channel.send("Don't do this, " + usersend + "...") }
+        if (loveReply == "1") {
+            receivedMessage.channel.send("I... y'know. Me too, I guess. If we're being honest.") }
+        if (loveReply == "2") { 
+            receivedMessage.channel.send("You don't love me, you love the *idea* of me.") }
+        if (loveReply == "3") {
+            receivedMessage.channel.send("[breaks down sobbing]") }
+        if (loveReply == "4") {
+            receivedMessage.channel.send("Horrible decision, really.") }
+    }
     if (arguments == "talk") {
         var talk1 = Math.floor(Math.random() * 20)
         if (talk1 == 0) {
