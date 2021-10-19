@@ -190,7 +190,7 @@ function helpCommand(arguments, receivedMessage) {
         receivedMessage.channel.send("No one's ever done this for me before...")
     }
     if (arguments == "help") {
-        receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n `!dean fuck`: Become Cas-coded \n `!dean kill': Become Gabriel-coded \n '!dean birth`: Have me wish you a happy birthday \n `!dean love`: Tell me you love me \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
+        receivedMessage.channel.send("Hey huckleberry, here are my commands! \n `!dean talk`: get a quote from canon \n `!dean speak`: make me say something funny \n `!dean bde`: measure your big dick energy \n `!dean bhe`: measure your big hole energy (I know something about that) \n `!dean fuck`: Become Cas-coded \n `!dean kill`: Become Gabriel-coded \n `!dean birth`: Have me wish you a happy birthday \n `!dean love`: Tell me you love me \n You can also make me say anything using `dean say` (no exclaimation point) and I respond to my own name, and others!")
     }
     
     if (arguments == "birth") {
